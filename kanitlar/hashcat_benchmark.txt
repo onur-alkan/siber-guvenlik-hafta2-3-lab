@@ -1,0 +1,18 @@
+Hashcat benchmark sonuclari - Onur Alkan / 232923044
+Tarih: 17 Ekim 2026
+Ortam: Kali Linux VM, Hashcat v7.1.2, PoCL OpenCL CPU backend
+CPU: 12th Gen Intel(R) Core(TM) i7-1255U
+
+MD5 (-m 0)
+Speed.#01........: 133.7 MH/s
+
+SHA2-256 (-m 1400)
+Speed.#01........: 27838.6 kH/s (~27.84 MH/s)
+
+bcrypt (-m 3200)
+Speed.#01........: 658 H/s
+
+Goreli oranlar:
+- MD5 / SHA-256: ~4.80x
+- MD5 / bcrypt: ~203,191x
+- SHA-256 / bcrypt: ~42,308x

@@ -1,0 +1,13 @@
+Zayif sunucu sslscan dogrulanmis protokol ozeti - 127.0.0.1:8445
+
+SSL/TLS Protocols:
+SSLv2     disabled
+SSLv3     disabled
+TLSv1.0   enabled
+TLSv1.1   enabled
+TLSv1.2   enabled
+TLSv1.3   enabled
+
+Tam terminal goruntusu: 03_tls_zayif.png
+Not: Gorev dokumaninda modern OpenSSL'de TLS 1.0/1.1'in kapali kalabilecegi belirtilmisti;
+bu laboratuvar ortaminda gercek sslscan sonucu TLS 1.0 ve TLS 1.1'i de enabled olarak gostermistir.

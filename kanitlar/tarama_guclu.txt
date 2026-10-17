@@ -1,0 +1,37 @@
+sslscan 127.0.0.1:8443
+Version: 2.1.5
+OpenSSL 3.6.2 7 Apr 2026
+
+Connected to 127.0.0.1
+
+SSL/TLS Protocols:
+SSLv2     disabled
+SSLv3     disabled
+TLSv1.0   disabled
+TLSv1.1   disabled
+TLSv1.2   disabled
+TLSv1.3   enabled
+
+TLS Fallback SCSV:
+Server supports TLS Fallback SCSV
+
+TLS renegotiation:
+Session renegotiation not supported
+
+TLS Compression:
+Compression disabled
+
+Heartbleed:
+TLSv1.3 not vulnerable to heartbleed
+
+Supported Server Cipher(s):
+Preferred TLSv1.3  256 bits  TLS_AES_256_GCM_SHA384
+Accepted  TLSv1.3  256 bits  TLS_CHACHA20_POLY1305_SHA256
+Accepted  TLSv1.3  128 bits  TLS_AES_128_GCM_SHA256
+
+SSL Certificate:
+Signature Algorithm: sha256WithRSAEncryption
+RSA Key Strength:    2048
+Subject:  lab.local
+Altnames: DNS:lab.local, DNS:localhost, IP Address:127.0.0.1
+Issuer:   Siber Guvenlik Ders Kok CA - 232923044

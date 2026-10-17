@@ -1,0 +1,25 @@
+# Uretilen parola ozetleri / cozumleri
+**/ekip_md5.txt
+**/ekip_sha256.txt
+**/ekip_bcrypt.txt
+*.potfile
+*.potfile2
+
+# PKI ve ozel anahtarlar
+**/pki/
+*.key
+*.pem
+
+# mitmproxy yerel CA / durum
+.mitmproxy/
+**/mitmproxy-ca*
+
+# Python / OS
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Yerel laboratuvar dosyalari
+*.pcap
+*.log
